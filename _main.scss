@@ -1,0 +1,510 @@
+.main {
+    width: 100%;
+    height: fit-content;
+    background-color: #f5f6f8;
+    overflow: hidden;
+    .swiper {
+        width: 100%;
+        height: 100px;
+        margin: 45px 0px;
+        img {
+            width: 110px;
+            height: 100px;
+            filter: grayscale(100%);
+            padding: 0px 20px;
+            transition: .3s;
+        }
+        img:hover {
+            filter: grayscale(0);
+        }
+    }
+    &_top {
+        display: flex;
+        align-items: center;
+        .text {
+            .top {
+                margin-bottom: 30px;
+                h2 {
+                    text-transform: uppercase;
+                    font-size: 35px;
+                    color: #0b78e3;
+                    font-weight: 700;
+                    font-family: $nunito;
+                }
+                div {
+                    width: 70px;
+                    height: 3px;
+                    background: linear-gradient(to right, #2f9bea 0%, #76cfae 100%);
+                    margin-top: 5px;
+                }
+            }
+            p {
+                font-family: $nunito;
+                font-size: 18px;
+                color: #2A2F35;
+                line-height: 30px;
+            }
+        }
+    }
+    .blue_title {
+        width: 4000px;
+        height: 30px;
+        text-align: right;
+        position: relative;
+        left: -3580px;
+        border-radius: 30px;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        background-image: linear-gradient(to left, #0084ff , #2d3e84);
+        color: #ffffff;
+        font-family: $nunito;
+        line-height: 35px;
+        font-weight: normal;
+        margin-top: 80px;
+    }
+    &_main {
+        display: flex;
+        align-items: center;
+        .text {
+            text-align: right;
+            margin-right: 30px;
+            .top {
+                margin-bottom: 10px;
+                h2 {
+                    text-transform: uppercase;
+                    font-size: 35px;
+                    color: #0b78e3;
+                    font-weight: 700;
+                    font-family: $nunito;
+                }
+            }
+            .divi {
+                width: 70px;
+                height: 3px;
+                background-color: #ed812f;
+                margin-bottom: 25px;
+                display: inline-block;
+            }
+            p {
+                font-family: $nunito;
+                font-size: 18px;
+                color: #2A2F35;
+                line-height: 30px;
+            }
+        }
+    }
+    .lg {
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://amjilt.com/landing-assets/upload/subback.png);
+        width: 100%;
+        height: 485px;
+    }
+    .right_title {
+        width: 1250px;
+        height: 30px;
+        text-align: left;
+        position: relative;
+        left: 30px;
+        border-radius: 25px;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        background-color: #0084ff;
+        color: #ffffff;
+        font-family: $nunito;
+        line-height: 35px;
+        margin-top: 50px;
+        font-weight: normal;
+    }
+    &_two {
+        display: flex;
+        align-items: center;
+        margin-top: 90px;
+        .text {
+            margin-right: 30px;
+            .top {
+                margin-bottom: 10px;
+                text-align: right;
+                h2 {
+                    text-transform: uppercase;
+                    font-size: 35px;
+                    color: #0b78e3;
+                    font-weight: 700;
+                    font-family: $nunito;
+                    text-align: right;
+                }
+                .divi {
+                    width: 70px;
+                    height: 3px;
+                    background-color: #ed812f;
+                    margin-bottom: 25px;
+                    display: inline-block;
+                }
+            }
+            p {
+                font-family: $nunito;
+                font-size: 18px;
+                color: #2A2F35;
+                line-height: 30px;
+            }
+        }
+    }
+    .middle {
+        margin-top: 150px;
+        .top {
+            text-align: center;
+            h2 {
+                text-transform: uppercase;
+                font-size: 35px;
+                color: #0b78e3;
+                font-weight: 700;
+                font-family: $nunito;
+            }
+            .divi {
+                width: 70px;
+                height: 3px;
+                background: linear-gradient(to right, #2f9bea 0%, #76cfae 100%);
+                margin-top: 5px;
+                display: inline-block;
+                margin-bottom: 15px;
+            }
+        }
+        .row {
+            display: flex;
+            gap: 30px;
+            .box {
+                width: 270px;
+                height: 323px;
+                border-radius: 30px;
+                background-color: burlywood;
+                overflow: hidden;
+                .bgimg {
+                    width: 100%;
+                    height: 125px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    cursor: pointer;
+                }
+                .one {
+                    background-image: url(https://amjilt.com/landing-assets/upload/new/1.jpg);
+                }
+                .two {
+                    background-image: url(https://amjilt.com/landing-assets/upload/new/2.jpg);
+                }
+                .three {
+                    background-image: url(https://amjilt.com/landing-assets/upload/new/3.jpg);
+                }
+                .four {
+                    background-image: url(https://amjilt.com/landing-assets/upload/new/4.jpg);
+                }
+                .bgtext {
+                    width: 100%;
+                    height: 203px;
+                    background-color: #fff;
+                    padding: 15px 15px 5px 15px;
+                    h4 {
+                        color: #2A2F35;
+                        font-family: $nunito;
+                        margin-bottom: 15px;
+                    }
+                    p {
+                        color: #828282;
+                        font-family: $nunito;
+                        font-size: 14px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        .row {
+            display: flex;
+            margin-bottom: 25px;
+            div {
+                width: 370px;
+                height: 100px;
+                background-color: #0084ff;
+                margin: 0px 15px;
+                border-radius: 20px;
+                display: flex;
+                cursor: pointer;
+                span {
+                    width: 360px;
+                    height: 100px;
+                    gap: 7px;
+                    margin: 0px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    border-radius: 20px;
+                    i {
+                        font-size: 40px;
+                        color: #fff;
+                    }
+                     p {
+                        color: #fff;
+                        font-family: $nunito;
+                        font-size: 20px;
+                        font-weight: normal;
+                    } 
+                }
+                ul {
+                    width: 360px;
+                    height: 220px;
+                    background-color: white;
+                    visibility: hidden;
+                    display: none;
+                    position: relative;
+                    margin-top: 80px;
+                    border-bottom-left-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    li {
+                        margin-left: 40px;
+                        font-family: $nunito;
+                        padding-top: 17px;
+                    }
+                }
+                &:hover {
+                    display: flex;
+                    flex-direction: column;
+                    span {
+                        background-image: linear-gradient(to right, #2d3e84, #0084ff);
+                    }
+                    i{
+                        animation: animats .5s ease-in-out 1;
+                    }
+                    ul {
+                        height: 250px;
+                        display: flex;
+                        visibility: visible;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+    .advan {
+        width: 100%;
+        height: fit-content;
+        background-color: #0084ff;
+        /*background-image: url(https://amjilt.com/landing-assets/upload/fixed-background.jpg);
+        background-size: cover;
+        background-position: center;*/
+        h2 {
+            color: #fff;
+            font-family: $nunito;
+            font-size: 40px;
+            text-align: center;
+            padding: 80px;
+        }
+        .blu {
+            display: flex;
+            gap: 40px;
+            .div {
+                display: flex;
+                justify-content: center;
+                position: relative;
+                .circle {
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    width: 75px;
+                    align-items: center;
+                    background-color: #2C99ED;
+                    height: 75px;
+                    border-radius: 50px;
+                    bottom: 185px;
+                    img {
+                       width: 45px;
+                       height: 45px;
+                    }
+                }
+                .cls {
+                    width: 350px;
+                    height: 100px;
+                    border: 1px solid #ffffff75;
+                    border-radius: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 100px;
+                    h5 {
+                        color: #fff;
+                        line-height: 25px;
+                        font-size: 16px;
+                        font-family: $nunito;
+                    }
+                }
+            }
+            div:hover {
+                .circle {
+                    animation: yo .6s 1;
+                }
+            }
+        }
+    }
+    .ss {
+        display: flex;
+        gap: 15px;
+        justify-content: right;
+        margin-left: 130px;
+        text-align: right;
+        margin: 60px 70px 90px;
+        h4 {
+            color: #0b78e3;
+            font-family: $nunito;
+            font-size: 45px;
+        }
+        p {
+            font-size: 20px;
+            color: #000;
+            font-family: $nunito;
+            text-align: left;
+        }
+    }
+    .gl {
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://amjilt.com/landing-assets/upload/banner22.png);
+        width: 100%;
+        height: 428px;
+    }
+    .footer {
+        margin: 80px 0px;
+        &_top {
+            text-align: center;
+            h2 {
+                text-transform: uppercase;
+                font-size: 35px;
+                color: #0b78e3;
+                font-weight: 700;
+                font-family: nunito;
+            }
+            .divi {
+                width: 70px;
+                height: 3px;
+                background: linear-gradient(to right, #2f9bea 0%, #76cfae 100%);
+                margin-top: 5px;
+                display: inline-block;
+                margin-bottom: 15px;
+            }
+        }
+        .hrt {
+            display: flex;
+            gap: 30px;
+            div {
+                background-size: cover;
+                background-position: center;
+                border-radius: 20px;
+                width: 270px;
+                height: 350px;
+                transition: border 0.6s ease;
+                &:nth-child(1) {
+                    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/s206x206/258786595_460366332089549_7036314460047771426_n.png?_nc_cat=111&ccb=1-5&_nc_sid=aee45a&_nc_ohc=iZOVJN5WOrwAX-93VKG&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=49765b739f453a0af5a42eb51a2150ae&oe=61C01C03);
+                    &:hover {
+                        background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/s206x206/259388168_205325445118042_6558830875426785546_n.png?_nc_cat=110&ccb=1-5&_nc_sid=aee45a&_nc_ohc=HhhblxadODcAX-gjj99&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=33ac61a7671f14f20814db09d056076b&oe=61BE87AF);
+                    }
+                }
+                &:nth-child(2) {
+                    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/s206x206/259303670_5222634057747827_5349260710550964673_n.png?_nc_cat=107&ccb=1-5&_nc_sid=aee45a&_nc_ohc=INBT2VvKAUMAX8zNBDs&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=c5840e779bf9b7c02a6432fb3d17a51f&oe=61C073D2);
+                    &:hover {
+                        background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/s206x206/259411414_4552945971454365_7032918403847981564_n.png?_nc_cat=100&ccb=1-5&_nc_sid=aee45a&_nc_ohc=qnRqQo3eXy4AX-Cmgg-&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=8b0adc2430a1ddeb66d3dcfd8338fe29&oe=61BF7B6F);
+                    }
+                }
+                &:nth-child(3) {
+                    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/s206x206/259614954_392120435989497_5914140476728086706_n.png?_nc_cat=100&ccb=1-5&_nc_sid=aee45a&_nc_ohc=M08B-GYOmegAX_6p2i6&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=1d3a8076974ae84502254ed5ef0209cd&oe=61BF3426);
+                    &:hover {
+                        background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/s206x206/259132464_4209906142471707_4734805636150856847_n.png?_nc_cat=104&ccb=1-5&_nc_sid=aee45a&_nc_ohc=6mqzJedJ1-UAX8rCCSu&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=3c339e7c870ffb687bf352f30b949089&oe=61C1C267);
+                    }
+                }
+                &:nth-child(4) {
+                    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/p160x160/259665437_669797957320112_1502410035203303425_n.png?_nc_cat=100&ccb=1-5&_nc_sid=aee45a&_nc_ohc=Oa74uILBUFMAX87Q0VA&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=7daa8e470aac6eb2cb406d8914b02869&oe=61BF2079);
+                    &:hover {
+                        background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/p160x160/259502074_503342444287539_7180161095807262048_n.png?_nc_cat=110&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-guVSDnoxFQAX9Hv_X8&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=8086e992b36e789b111fb046b3d137aa&oe=61C12F57);
+                    }
+                }
+                &:hover {
+                    animation: div .1s  infinite;
+                    transition: .5s ;
+                    h3 {
+                        color: white;
+                    }
+                    p {
+                        color: white;
+                        border-left: 5px solid white;
+                    }
+                }
+                h3 {
+                    font-family: $nunito;
+                    font-size: 30px;
+                    text-align: right;
+                    color: rgb(0, 116, 255);
+                    margin-right: 20px;
+                }
+                p {
+                    border-left: 5px solid #0074ff;
+                    padding-left: 5px;
+                    text-transform: uppercase;
+                    font-family: $nunito;
+                    font-size: 14px;
+                    margin-top: 210px;
+                    margin-left: 20px;
+                    color: #0074ff;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+@keyframes animats {
+    0% {
+        transform: scale(1);
+    }
+
+    33% {
+        transform: scale(1.25);
+    }
+
+    66% {
+        transform: scale(0.8);
+    }
+    
+    100% {
+        transform: scale(1.15);
+    }
+}
+@keyframes div { 
+    from {
+       transform: translateY(-10px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+@keyframes yo {
+    0% {
+        transform: translateY(0px);
+    }
+
+    33% {
+        transform: translateY(-7px);
+    }
+
+    66% {
+        transform: translateY(0px);
+    }
+    
+    85% {
+        transform: translateY(-7px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
